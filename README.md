@@ -122,7 +122,7 @@ All confidence intervals include zero, indicating that long-run coefficients are
 
 ## How to Run
 
-1. Clone the repository or download `Okun_Law_France.R`.
+1. Clone the repository or download `okun_law_france.R`.
 2. Place `gdp.csv` and `unemployment.csv` in the same directory (see Data Sources above for variable definitions).
 3. Install required packages:
 
@@ -132,7 +132,7 @@ install.packages(c("readr", "ggplot2", "ggfortify", "patchwork",
                    "strucchange", "mFilter", "MASS"))
 ```
 
-4. Run `Okun_Law_France.R` in R or RStudio.
+4. Run `okun_law_france.R` in R or RStudio.
 
 Output charts are saved as `.png` files in the working directory.
 
